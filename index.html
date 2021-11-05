@@ -1,1 +1,29 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sayang</title>
+</head>
+<body>
+	<h1 style="text-align: center;">Halo kiki</h1>
+	<div style="text-align: center;">
+		<img style="width: 300px;" src="https://c.tenor.com/2kIl8gd8JsAAAAAi/cium-cute-cat.gif">
+		<h2 style="text-align: center;">Will you be mineeeee?</h2>
+		<div style="text-align: center;">
+			<button id="iya" onclick='alert("I Love You")'>Yesss</button> &nbsp
+			<button id="no" style="position: absolute" onclick='no(this)'>Nggakkkk</button>
+		</div>
+	</div>
+
+</body>
+
+<script>
+	function no(id){
+		var iya = document.getElementById('iya')
+		var a = Math.floor(Math.random()*200) + 1
+		var b = Math.floor(Math.random()*100)+iya.offsetTop
+		id.style.right = a + 'px'
+		id.style.top = b + 'px'
+	}
+</script>
+</html>
